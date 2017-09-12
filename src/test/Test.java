@@ -4,7 +4,7 @@ import javax.swing.plaf.synth.SynthSeparatorUI;
 
 public class Test {
 	public int gt() {
-		int i=1;
+		int i=199;
 		
 		int a=0;
 		try {
