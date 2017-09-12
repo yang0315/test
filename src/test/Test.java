@@ -5,6 +5,8 @@ import javax.swing.plaf.synth.SynthSeparatorUI;
 public class Test {
 	public int gt() {
 		int i=1;
+		
+		int a=0;
 		try {
 			return i;
 		} catch (Exception e) {
@@ -14,7 +16,5 @@ public class Test {
 		}
 	}
 	
-	public static void main(String[] args) {
-		System.out.println(new Test().gt());
-	}
+
 }
